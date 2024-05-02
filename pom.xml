@@ -13,6 +13,7 @@
         <module>datasource</module>
         <module>spring_annotation_bean</module>
         <module>spring_annotation_dii</module>
+        <module>spring_annotation_autowared</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

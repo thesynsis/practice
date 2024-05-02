@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring_annotation_autowared" />
         <module name="datasource" />
         <module name="spring_setter" />
         <module name="spring_annotation_dii" />
