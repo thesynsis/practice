@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring_setter</artifactId>
+    <artifactId>datasource</artifactId>
 
 
 

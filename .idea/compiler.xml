@@ -6,8 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="datasource" />
         <module name="spring_setter" />
+        <module name="spring_annotation_dii" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring__annotation_bean" target="17" />
+      <module name="spring_annotation" target="17" />
+      <module name="spring_annotation_di" target="17" />
+      <module name="spring_setter (1)" target="17" />
+      <module name="spring_setter (2)" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

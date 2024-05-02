@@ -12,7 +12,9 @@
 
     <bean id = "userDao" class="com.synsis.dao.impl.UserDaoiml" />
 
-    <bean id="bookService" class="com.synsis.service.impl.BookServiceimpl" autowire="byType"/>
-
+    <bean id="bookService" class="com.synsis.service.impl.BookServiceimpl">
+        <property name="bookDao" ref="bookDao"/>
+        <property name="userDao" ref="userDao"/>
+    </bean>
 </beans>
 
